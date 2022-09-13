@@ -84,6 +84,13 @@
     margin-top: 160px;
     padding: 0px 20px;
   }
+  .biography_text p {
+    font-family: "Moderat Trial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+  }
   .row .img1 {
     width: 292px;
     height: 292px;
