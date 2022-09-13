@@ -57,10 +57,10 @@
         display: flex;
         justify-content: left;
         align-items: left;
-        padding: 0px 20px;
     }
     .footer_text{
         text-align: left;
+        padding: 0px 20px;
         margin-top: 24px;
     }
 }

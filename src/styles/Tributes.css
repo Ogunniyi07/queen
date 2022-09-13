@@ -100,4 +100,8 @@
         flex-direction: column;
         gap: 24px;
     } 
+    .row3 .row3_image img{
+        width: 200px;
+        height: 200px;
+    } 
 }
