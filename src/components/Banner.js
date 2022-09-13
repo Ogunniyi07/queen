@@ -10,8 +10,7 @@ const Banner = () => {
           <h1>Queen Elizabeth II</h1>
           <p>
             "I have in sincerity pledged myself to your service, as so many of
-            you <br />
-            are pledged to mine. Throughout all my life and with all my heart I
+            you are pledged to mine. Throughout all my life and with all my heart I
             shall strive to be worthy of your trust."
           </p>
         </div>

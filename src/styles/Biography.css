@@ -84,4 +84,20 @@
     margin-top: 160px;
     padding: 0px 20px;
   }
+  .row .img1 {
+    width: 292px;
+    height: 292px;
+  }
+  .row .img2 {
+    width: 400px;
+    height: 292px;
+  }
+  .row .img3 {
+    width: 292px;
+    height: 400px;
+  }
+  .row .img4 {
+    width: 400px;
+    height: 400px;
+  }
 }
