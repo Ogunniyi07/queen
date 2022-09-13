@@ -4,8 +4,6 @@
   padding: 0px 100px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-    align-items: center; */
 }
 .biography_text {
   margin-bottom: 8px;
@@ -55,6 +53,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #1b1c1e;
+  margin-bottom: 12px;
 }
 .row p .link a {
   font-family: "Moderat Trial";
