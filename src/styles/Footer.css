@@ -1,66 +1,61 @@
-.footer{
-    width: 1440px;
+.footer {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1b1c1e;
+}
+.footer .line {
+  width: 100%;
+}
+.footer_text {
+  text-align: center;
+  margin-top: 24px;
+}
+.footer_text img {
+  width: 41.29px;
+  height: 45px;
+}
+.footer_text h1 {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #e7e8e9;
+  margin-top: 16px;
+}
+.footer_text p {
+  font-family: "Moderat Trial";
+  font-style: italic;
+  font-weight: 401;
+  font-size: 20px;
+  line-height: 30px;
+  color: #e7e8e9;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.footer_text .red {
+  color: red;
+}
+
+@media only screen and (max-width: 960px) {
+  .footer {
+    width: 960px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .footer {
+    width: 450px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #1B1C1E;
-}
-.footer .line{
-    width: 100%;
-}
-.footer_text{
-    text-align: center;
+    justify-content: left;
+    align-items: left;
+  }
+  .footer_text {
+    text-align: left;
+    padding: 0px 20px;
     margin-top: 24px;
-}
-.footer_text img{
-    width: 41.29px;
-    height: 45px;
-}
-.footer_text h1{
-    font-family: 'Cabinet Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 32px;
-    text-transform: uppercase;
-    color: #E7E8E9;
-    margin-top: 16px;
-}
-.footer_text p{
-    font-family: 'Moderat Trial';
-    font-style: italic;
-    font-weight: 401;
-    font-size: 20px;
-    line-height: 30px;
-    color: #E7E8E9;
-    margin-top: 8px;
-    margin-bottom: 40px;
-}
-.footer_text .red{
-    color: red;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 960px){
-    .footer{
-        width: 960px;
-    }
-}
-@media only screen and (max-width: 450px){
-    .footer{
-        width: 450px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-    }
-    .footer_text{
-        text-align: left;
-        padding: 0px 20px;
-        margin-top: 24px;
-    }
+  }
 }

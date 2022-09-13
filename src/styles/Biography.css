@@ -1,74 +1,87 @@
-.biography{
-    width: 1440px;
-    margin-top: 160px;
-    padding:0px 100px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
+.biography {
+  width: 1440px;
+  margin-top: 160px;
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
     align-items: center; */
 }
-.biography_text{
-    margin-bottom: 8px;
+.biography_text {
+  margin-bottom: 8px;
 }
-.biography_text h1{
-    font-family: 'Cabinet Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #1B1C1E;
+.biography_text h1 {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #1b1c1e;
 }
-.biography_text p{
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+.biography_text p {
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
-.row{
+.row {
+  margin-top: 24px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.row .img1 {
+  width: 292px;
+  height: 292px;
+}
+.row .img2 {
+  width: 450px;
+  height: 292px;
+}
+.row .img3 {
+  width: 292px;
+  height: 450px;
+}
+.row .img4 {
+  width: 450px;
+  height: 450px;
+}
+.row p {
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1b1c1e;
+}
+.row p .link a {
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1b1c1e;
+}
+
+@media only screen and (max-width: 960px) {
+  .biography {
+    width: 960px;
+    margin-top: 160px;
+    padding: 0px 100px;
+  }
+  .row {
     margin-top: 24px;
     gap: 24px;
-    display:flex ;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+  }
 }
-.row p{
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #1B1C1E;
-}
-.row p .link a{
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #1B1C1E; 
-}
-
-
-
-
-@media only screen and (max-width: 960px){
-    .biography{
-        width: 960px;
-        margin-top: 160px;
-        padding:0px 100px;
-    }   
-    .row{
-        margin-top: 24px;
-        gap: 24px;
-        display:flex ;
-        flex-direction: column;
-    }
-}
-@media only screen and (max-width: 450px){
-    .biography{
-        width: 450px;
-        margin-top: 160px;
-        padding:0px 20px;
-    }   
+@media only screen and (max-width: 450px) {
+  .biography {
+    width: 450px;
+    margin-top: 160px;
+    padding: 0px 20px;
+  }
 }

@@ -1,80 +1,78 @@
-.nav{
+.nav {
   position: relative;
   width: 1440px;
-  height:auto;
-  background: #1B1C1E;
+  height: auto;
+  background: #1b1c1e;
   box-shadow: 0px 2px 12px rgba(231, 232, 233, 0.04);
 }
-.nav-list{
-  width:100%;
-  display:flex;
+.nav-list {
+  width: 100%;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.nav-list .nav-logo{
-  width:20%;
-  padding:10px 30px;
+.nav-list .nav-logo {
+  width: 20%;
+  padding: 10px 30px;
   margin-left: 20px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.nav-list .nav-logo .nav-logoo{
+.nav-list .nav-logo .nav-logoo {
   cursor: auto;
 }
-.nav-list .nav-logo img{
-    width: 44px;
-    height: 48px;
+.nav-list .nav-logo img {
+  width: 44px;
+  height: 48px;
   object-fit: contain;
 }
-.nav-list ul{
-  width:70%;
-  height:auto;
+.nav-list ul {
+  width: 70%;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content:right;
+  justify-content: right;
   flex-direction: row;
   list-style: none;
 }
-.nav-list ul li .nav-link{
-    padding:20px 20px;
-    text-decoration: none;
-    font-weight: 500;
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: #E7E8E9;
-    transition: all 0.3s ease;
+.nav-list ul li .nav-link {
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e7e8e9;
+  transition: all 0.3s ease;
 }
-.nav-list ul li .nav-link:active{
-    border: 2px solid #E7E8E9;
+.nav-list ul li .nav-link:active {
+  border: 2px solid #e7e8e9;
 }
 .open,
-.close{ 
+.close {
   display: none;
 }
 
-
-
 /* Responsiveness of the Site */
 @media only screen and (max-width: 960px) {
-    .nav{
-        width: 960px;
-      }
-  .nav-list .nav-logo{
-    padding:0px 0px 0px 25px;
+  .nav {
+    width: 960px;
   }
-  .nav-list .nav-logo img{
-    width:70%;
-    height:80%;
+  .nav-list .nav-logo {
+    padding: 0px 0px 0px 25px;
+  }
+  .nav-list .nav-logo img {
+    width: 70%;
+    height: 80%;
   }
   .open,
-  .close{ 
+  .close {
     display: inline;
   }
-  .nav-list .nav-links-mobile{
+  .nav-list .nav-links-mobile {
     position: absolute;
     top: 90px;
     height: 250vh;
@@ -82,50 +80,49 @@
     flex-direction: column;
     align-items: left;
     justify-content: left;
-    display:flex; 
-    list-style:none;
+    display: flex;
+    list-style: none;
     z-index: 888;
     padding-bottom: 340px;
-    background: #1B1C1E;
+    background: #1b1c1e;
     opacity: 5;
     filter: blur(0px);
     transition: all 0.5s ease;
-  
   }
   .nav-list ul li {
-    width:100%;
-    height:8vh;
+    width: 100%;
+    height: 8vh;
     align-items: left;
     justify-content: center;
-    display:flex; 
+    display: flex;
     padding: 10px 50px;
     margin-top: 8px;
     flex-direction: column;
   }
-  .nav-list .link{
-    display:none;
+  .nav-list .link {
+    display: none;
   }
   .close,
-  .open{
-    position:absolute;
-    top:20px;
-    right:20px;
+  .open {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     font-size: 26px;
     display: block;
-    z-index:999;
-    color: #E7E8E9;
+    z-index: 999;
+    color: #e7e8e9;
   }
 }
 @media only screen and (max-width: 450px) {
-    .nav{
+  .nav {
     width: 450px;
   }
-  .nav-list .nav-logo{
-    padding:0px 10px;
+  .nav-list .nav-logo {
+    padding: 0px 10px;
   }
-  .nav-list .nav-logo img{
-    width:90%;
-    height:90%;
+  .nav-list .nav-logo img {
+    width: 90%;
+    height: 90%;
   }
   .nav-list ul li {
     padding: 10px 40px;

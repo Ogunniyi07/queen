@@ -1,107 +1,104 @@
-.tributes{
-    width: 1440px;
-    padding:160px 100px;
+.tributes {
+  width: 1440px;
+  padding: 160px 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1c1e;
+}
+.tributes_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tributes_text h1 {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #e7e8e9;
+}
+.tributes_text a {
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #e7e8e9;
+}
+.tributes p {
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #e7e8e9;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+  gap: 96px;
+}
+.row3_row {
+  margin-top: 32px;
+}
+.row3 .row3_image {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.row3_image p {
+  font-family: "Moderat Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #e7e8e9;
+}
+.row3_row .name h3 {
+  font-family: "Cabinet Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #e7e8e9;
+  margin-top: 24px;
+}
+.row3_row .name p {
+  font-family: "Moderat Trial";
+  font-style: italic;
+  font-weight: 401;
+  font-size: 16px;
+  line-height: 20px;
+  color: #e7e8e9;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 960px) {
+  .tributes {
+    width: 960px;
+    padding: 100px 70px;
+  }
+  .row3 {
     display: flex;
     flex-direction: column;
-    background-color: #1B1C1E;
-}
-.tributes_text{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.tributes_text h1{
-    font-family: 'Cabinet Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #E7E8E9;
-}
-.tributes_text a{
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #E7E8E9;
-}
-.tributes p{
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #E7E8E9;
-}
-.row3{
-    display: flex;
-    flex-direction: row;
     gap: 96px;
+  }
 }
-.row3_row{
-    margin-top: 32px;
-}
-.row3 .row3_image{
+@media only screen and (max-width: 450px) {
+  .tributes {
+    width: 450px;
+    padding: 100px 20px;
+  }
+  .row3 .row3_image {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 24px;
-} 
-.row3_image p{
-    font-family: 'Moderat Trial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: #E7E8E9;
-}
-.row3_row .name h3{
-    font-family: 'Cabinet Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #E7E8E9;
-    margin-top: 24px;
-}
-.row3_row .name p{
-    font-family: 'Moderat Trial';
-    font-style: italic;
-    font-weight: 401;
-    font-size: 16px;
-    line-height: 20px;
-    color: #E7E8E9;
-    margin-top: 8px;
-}
-
-
-
-
-@media only screen and (max-width: 960px){
-    .tributes{
-        width: 960px;
-        padding:100px 70px;
-    }
-    .row3{
-        display: flex;
-        flex-direction: column;
-        gap: 96px;
-    }
-}
-@media only screen and (max-width: 450px){
-    .tributes{
-        width: 450px;
-        padding:100px 20px;
-    }
-    .row3 .row3_image{
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-    } 
-    .row3 .row3_image img{
-        width: 200px;
-        height: 200px;
-    } 
+  }
+  .row3 .row3_image img {
+    width: 200px;
+    height: 200px;
+  }
 }
