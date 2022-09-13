@@ -1,0 +1,123 @@
+.timeline{
+    width: 1440px;
+    padding:160px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.timeline_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.timeline_text h1{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #1B1C1E;
+}
+.timeline_text a{
+    font-family: 'Moderat Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1B1C1E;
+}
+.timeline p{
+    font-family: 'Moderat Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1B1C1E;
+    margin-bottom: 32px;
+}
+.timeline_row{
+    display: flex;
+    flex-direction: row;
+    width: 368px;
+    gap: 32px;
+}
+.timeline_row .image1{
+    border-right: 2px solid #1B1C1E;
+    border-left: 2px solid #1B1C1E;
+    padding: 0px 12px;
+}
+.image1 img{
+    width: 368px;
+    height: 368px
+}
+.timeline_row_text{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 32px;
+}
+.timeline_row_text h3{
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #1B1C1E;
+}
+.timeline_row_text p{
+    font-family: 'Moderat Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B1C1E;
+}
+
+
+
+@media only screen and (max-width: 960px){
+    .timeline{
+        width: 960px;
+        padding:160px 70px;
+    }
+    .timeline_row{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .image1{
+        display: flex;
+        flex-direction: row;
+    }
+    .timeline_row_text{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .timeline{
+        width: 450px;
+        padding:160px 20px;
+    }
+    .timeline_row{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .image1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .timeline_row_text{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 30px 20px;
+    }
+}

@@ -1,0 +1,111 @@
+.banner{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #1B1C1E;
+}
+.text{
+    width: 50%;
+    text-align: center;
+    padding: 0px 70px;
+    color: #E7E8E9;
+}
+.text h1{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 79px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text p{
+    font-family: 'Moderat Trial';
+    font-style: italic;
+    font-weight: 401;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+.left .left_one{
+    font-family: 'Moderat Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+}
+.left .left_two{
+    font-family: 'Moderat Trial';
+    font-style: italic;
+    font-weight: 401;
+    font-size: 16px;
+    line-height: 19px;
+}
+.text .left p{
+    text-align: right;
+}
+.image{
+    width: 50%;
+    padding-top: 80px;
+    margin-bottom: -4px;
+}
+.image img{
+    width: 639px;
+    height: 721px;
+}
+
+
+@media only screen and (max-width: 960px){
+    .banner{
+        width: 960px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+        padding: 70px 70px;
+        color: #E7E8E9;
+    } 
+    .image{
+        width: 100%;
+        margin-bottom: -8px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .banner{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+    .text{
+        width: 100%;
+        text-align: left;
+        padding: 70px 30px;
+    }
+    .text h1{
+        text-align: left;
+    } 
+    .image{
+        width: 100%;
+        padding-top: 80px;
+        margin-bottom: -16px;
+    }
+    .image img{
+        width: 349px;
+        height: 364px;
+    }
+}
