@@ -64,6 +64,14 @@
   line-height: 30px;
   color: #1b1c1e;
 }
+.biography_text .p1 {
+  width: 437px;
+  height: 270px;
+}
+.biography_text .p2 {
+  width: 437px;
+  height: 390px;
+}
 
 @media only screen and (max-width: 960px) {
   .biography {
@@ -83,13 +91,6 @@
     width: 450px;
     margin-top: 160px;
     padding: 0px 20px;
-  }
-  .biography_text p {
-    font-family: "Moderat Trial";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
   }
   .row .img1 {
     width: 292px;

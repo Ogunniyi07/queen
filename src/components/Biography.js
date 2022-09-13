@@ -11,7 +11,7 @@ const Biography = () => {
       <div className="row">
         <img className="img1" src="./images/Rectangle 6.png" alt="" />
         <img className="img2" src="./images/Rectangle 5.png" alt="" />
-        <p>
+        <p className="p1">
           Elizabeth Alexandra Mary Windsor was born in Mayfair, London, as the
           first child of the Duke & Duchess of York (later King George VI and
           Queen Elizabeth). Her father acceded to the throne in 1936 upon the
@@ -23,7 +23,7 @@ const Biography = () => {
       </div>
       <div className="row">
         <img className="img3" src="./images/Rectangle 7.png" alt="" />
-        <p>
+        <p className="p2">
           In November 1947, she married Philip Mountbatten, a former prince of
           Greece and Denmark, and their marriage lasted 73 years until his death
           in April 2021. They had four children: Charles III; Anne, Princess
